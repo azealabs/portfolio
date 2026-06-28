@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#020617"/>
+  <circle cx="980" cy="120" r="260" fill="#0ea5e9" opacity="0.22"/>
+  <circle cx="140" cy="520" r="220" fill="#38bdf8" opacity="0.16"/>
+
+  <text
+    x="90"
+    y="170"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="42"
+    font-weight="700"
+    fill="#38bdf8"
+    letter-spacing="2"
+  >
+    AZea Labs
+  </text>
+
+  <text
+    x="90"
+    y="290"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="72"
+    font-weight="800"
+    fill="#ffffff"
+  >
+    Software &amp;
+  </text>
+
+  <text
+    x="90"
+    y="380"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="72"
+    font-weight="800"
+    fill="#ffffff"
+  >
+    QA Automation
+  </text>
+
+  <text
+    x="90"
+    y="470"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="30"
+    fill="#cbd5e1"
+  >
+    Building software to learn, automate, and teach better.
+  </text>
+
+  <text
+    x="90"
+    y="545"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="24"
+    fill="#94a3b8"
+  >
+    azealabs.com
+  </text>
+</svg>
