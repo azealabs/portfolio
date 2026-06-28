@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Page Not Found | AZea Labs"
+  description="The page you are looking for does not exist on AZea Labs."
+  canonicalPath="/404"
+>
+  <main class="grid min-h-screen place-items-center px-6 py-24">
+    <section class="mx-auto w-full max-w-2xl text-center">
+      <p class="text-sm font-semibold uppercase tracking-[0.3em] text-sky-400">
+        404
+      </p>
+
+      <h1 class="mt-6 text-5xl font-bold tracking-tight text-white md:text-7xl">
+        Page not found
+      </h1>
+
+      <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-slate-300">
+        The page you are looking for does not exist or may have been moved.
+        Return to the AZea Labs homepage to continue exploring the ecosystem.
+      </p>
+
+      <div class="mt-10">
+        <a
+          href="/"
+          class="inline-flex rounded-lg bg-sky-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-300"
+        >
+          Go back home
+        </a>
+      </div>
+    </section>
+  </main>
+</Layout>
