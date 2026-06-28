@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-temp",
+  "name": "azealabs-portfolio",
   "type": "module",
   "version": "0.0.1",
+  "description": "Official AZea Labs portfolio website built with Astro, TypeScript, and Tailwind CSS.",
   "engines": {
     "node": ">=22.12.0"
   },
