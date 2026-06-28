@@ -1,46 +1,154 @@
-# Astro Starter Kit: Basics
+# AZea Labs Portfolio
 
-```sh
-npm create astro@latest -- --template basics
+Official portfolio website for **AZea Labs**, a software development and QA automation ecosystem created by Antonio Zea.
+
+The goal of this project is to serve as the main public hub for AZea Labs, including professional information, projects, QA Labs, future academy content, and technical learning resources.
+
+## Live Website
+
+```text
+https://azealabs.com
+https://www.azealabs.com
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Project Status
 
-## 🚀 Project Structure
+Current status:
 
-Inside of your Astro project, you'll see the following folders and files:
+```text
+Portfolio MVP - In progress
+```
+
+The first public landing page is already deployed and available through Cloudflare Pages.
+
+## Tech Stack
+
+This project uses:
+
+* Astro
+* TypeScript
+* Tailwind CSS
+* Cloudflare Pages
+* GitHub
+
+## Main Goals
+
+The AZea Labs portfolio is intended to:
+
+* Present the AZea Labs ecosystem
+* Showcase software and QA automation projects
+* Introduce QA Labs as a future automation practice platform
+* Introduce QA Academy as a future educational product
+* Serve as a professional portfolio for Antonio Zea
+* Document the evolution of the ecosystem over time
+
+## Project Structure
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   ├── pages/
+│   │   └── index.astro
+│   └── styles/
+│       └── global.css
+├── astro.config.mjs
+├── package.json
+└── README.md
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Local Development
 
-## 🧞 Commands
+Install dependencies:
 
-All commands are run from the root of the project, from a terminal:
+```sh
+npm install
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Start the local development server:
 
-## 👀 Want to learn more?
+```sh
+npm run dev
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The site will be available at:
+
+```text
+http://localhost:4321
+```
+
+## Build
+
+Create a production build:
+
+```sh
+npm run build
+```
+
+Preview the production build locally:
+
+```sh
+npm run preview
+```
+
+## Deployment
+
+This project is deployed with **Cloudflare Pages**.
+
+Production branch:
+
+```text
+main
+```
+
+Build command:
+
+```sh
+npm run build
+```
+
+Build output directory:
+
+```text
+dist
+```
+
+Every push to the `main` branch triggers a new deployment.
+
+## Roadmap
+
+Planned improvements:
+
+* Add a complete portfolio README
+* Add favicon
+* Add Open Graph metadata
+* Add social preview image
+* Add 404 page
+* Add project detail pages
+* Add LinkedIn link
+* Improve responsive testing
+* Prepare QA Labs planning content
+* Connect future subdomains:
+
+  * `labs.azealabs.com`
+  * `academy.azealabs.com`
+  * `api.azealabs.com`
+
+## Related Repositories
+
+Planned ecosystem repositories:
+
+```text
+azealabs-docs
+portfolio
+qalabs-web
+qalabs-api
+automation-examples
+qa-academy
+```
+
+## License
+
+This project is currently private/internal for AZea Labs development and learning purposes.
